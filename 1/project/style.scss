@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+$site-width:1160px;
+$bd-width:1px;
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+ol,
+ul,
+li {
+    list-style-type: none;
+}
+
+button,
+input,
+textarea {
+    line-height: normal;
+    text-transform: none;
+    cursor: pointer;
+}
+
+.fas,
+input,
+svg {
+    cursor: pointer;
+}
+
+input:focus-within {
+    outline: 1px solid transparent;
+}
+
+
+details>summary {
+    list-style: none;
+}
+
+summary,
+input {
+    border: 0;
+    outline: none;
+}
+
+summary:hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    color: #222222;
+    background-color: #bed3b7;
+}
+
+.container {
+    max-width: $site-width;
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: end;
+    min-height: 100%;
+    align-items: center;
+    min-height: 10vh;
+
+}
+
+header {
+
+    background-color: #000000;
+}
+
+.btn-cart {
+    background: rgb(130, 167, 121);
+    text-align: center;
+    border: 1px solid #11972e;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    width: 211px;
+    height: 47px;
+    border-radius: 20px;
+}
+
+.products {
+    display: flex;
+    grid-gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.product-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 10%;
+}
+
+.product-item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.img {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 30px;
+}
+
+.buy-btn {
+    background: rgb(130, 167, 121);
+    text-align: center;
+    border: 1px solid #0a0a0a;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    width: 140px;
+    height: 27px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.footer {
+    min-height: 100px;
+    background-color: #000000;
+}
