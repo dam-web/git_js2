@@ -1,0 +1,44 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "ELLERY X M'O CAPSULE",
+    "price": 52.00,
+    "imgProduct": "img/prod1.jpg",
+    "item_detal": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, atque aliquid!"
+  },
+  {
+    "id_product": 2,
+    "product_name": "ELLERY X M'O",
+    "price": 48.00,
+    "imgProduct": "img/prod2.jpg",
+    "item_detal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quod."
+  },
+  {
+    "id_product": 3,
+    "product_name": "ELLERY X",
+    "price": 42.00,
+    "imgProduct": "img/prod3.jpg",
+    "item_detal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eaque aperiam pariatur sed, qui molestias."
+  },
+  {
+    "id_product": 4,
+    "product_name": "ELLERY",
+    "price": 30.00,
+    "imgProduct": "img/prod4.jpg",
+    "item_detal": "Autem dolorem eveniet porro minima cumque sed debitis soluta?."
+  },
+  {
+    "id_product": 5,
+    "product_name": "M'O CAPSULE",
+    "price": 45.00,
+    "imgProduct": "img/prod5.jpg",
+    "item_detal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vero dignissimos"
+  },
+  {
+    "id_product": 6,
+    "product_name": "CAPSULE",
+    "price": 48.00,
+    "imgProduct": "img/prod6.jpg",
+    "item_detal": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, provident?"
+  }
+]

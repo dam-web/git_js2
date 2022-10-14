@@ -1,0 +1,24 @@
+<script>
+//    let usd = 0;
+//    fetch('https://www.cbr-xml-daily.ru/daily_json.js')
+//        .then(text => text.json())
+//        .then(data=>{
+//            usd = data.Valute.USD.Value;
+//        });
+//    console.log(usd);
+    
+    
+    async function f(){
+        let src = await fetch('https://www.cbr-xml-daily.ru/daily_json.js');
+        let srcJS = await src.json();
+        let usd = srcJS.Valute.USD.Value;
+        fetch('goods.json')
+            .then(text=>text.json())
+            .then(data => {
+                data.forEach(item=>{
+                    console.log(`${item.title} - ${item.price / usd}`);
+                });
+            });
+    }
+    f();
+</script>
