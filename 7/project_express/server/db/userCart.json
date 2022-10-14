@@ -1,0 +1,22 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 2,
+            "product_name": "ELLERY X M'O",
+            "price": 48,
+            "imgProduct": "img/prod2.jpg",
+            "item_detal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quod."
+        },
+        {
+            "quantity": 2,
+            "id_product": 3,
+            "product_name": "ELLERY X",
+            "price": 42,
+            "imgProduct": "img/prod3.jpg",
+            "item_detal": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eaque aperiam pariatur sed, qui molestias."
+        }
+    ]
+}
